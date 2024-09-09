@@ -24,9 +24,9 @@ const Position = () => {
         </div>
         <div
           className="text second absolute left-1 md:left-2 2xl:left-4 flex"
-          aria-label="Content Creator"
+          aria-label="Front-End Developer"
         >
-          {produceSpans("Content Creator", "animate-textRotate2")}
+          {produceSpans("Front-End Developer", "animate-textRotate2")}
         </div>
       </div>
     </div>
