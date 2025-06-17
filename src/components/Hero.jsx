@@ -1,10 +1,4 @@
 import SpacemanCanvas from "./Spaceman";
-import stars from "../assets/parallax/1Stars.svg";
-import planets from "../assets/parallax/2Planets.svg";
-import mountain1 from "../assets/parallax/3Mountain.svg";
-import mountain2 from "../assets/parallax/4Mountain.svg";
-import crater from "../assets/parallax/5Crater.svg";
-import sun from "../assets/parallax/6Sun.svg";
 import Position from "./Position";
 
 const Hero = ({ scrollContainer }) => {
@@ -23,12 +17,36 @@ const Hero = ({ scrollContainer }) => {
           </div>
         </div>
       </div>
-      <img className="parallax__stars" src={stars} alt="" />
-      <img className="parallax__planets" src={planets} alt="" />
-      <img className="parallax__mountain1" src={mountain1} alt="" />
-      <img className="parallax__mountain2" src={mountain2} alt="" />
-      <img className="parallax__crater" src={crater} alt="" />
-      <img className="parallax__sun" src={sun} alt="" />
+      <img
+        className="parallax__stars"
+        src="/3d-portfolio-spaceman/parallax/1Stars.svg"
+        alt="stars"
+      />
+      <img
+        className="parallax__planets"
+        src="/3d-portfolio-spaceman/parallax/2Planets.svg"
+        alt="planets"
+      />
+      <img
+        className="parallax__mountain1"
+        src="/3d-portfolio-spaceman/parallax/3Mountain.svg"
+        alt="mountain"
+      />
+      <img
+        className="parallax__mountain2"
+        src="/3d-portfolio-spaceman/parallax/4Mountain.svg"
+        alt="mountain"
+      />
+      <img
+        className="parallax__crater"
+        src="/3d-portfolio-spaceman/parallax/5Crater.svg"
+        alt="crater"
+      />
+      <img
+        className="parallax__sun"
+        src="/3d-portfolio-spaceman/parallax/6Sun.svg"
+        alt="sun"
+      />
 
       <SpacemanCanvas scrollContainer={scrollContainer} />
     </section>
