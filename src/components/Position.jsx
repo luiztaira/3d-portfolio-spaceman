@@ -20,13 +20,13 @@ const Position = () => {
           className="text first absolute left-1 md:left-2 2xl:left-4 flex"
           aria-label="Software Developer"
         >
-          {produceSpans("Software Developer", "animate-textRotate1")}
+          {produceSpans("ソフトウェアエンジニア", "animate-textRotate1")}
         </div>
         <div
           className="text second absolute left-1 md:left-2 2xl:left-4 flex"
-          aria-label="Front-End Developer"
+          aria-label="Full-Stack/ Developer"
         >
-          {produceSpans("Front-End Developer", "animate-textRotate2")}
+          {produceSpans("フルスタック・AI", "animate-textRotate2")}
         </div>
       </div>
     </div>

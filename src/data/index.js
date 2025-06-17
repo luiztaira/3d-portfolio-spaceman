@@ -7,50 +7,58 @@ import {
   export const navLinks = [
     {
       id: "hero",
-      title: "Hero",
+      title: "トップ",
     },
     {
       id: "portfolio",
-      title: "Portfolio",
+      title: "ポートフォリオ",
     },
     {
       id: "experience",
-      title: "Experience",
+      title: "経験",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "問い合わせ",
     },
   ];
   
   const experiences = [
     {
-      title: "Software Developer",
+      title: "webエンジニア(フルスタック)",
       company_name: "lookingup株式会社",
-      date: "2024 - current",
+      date: "2024４月 - 2024年11月",
       details: [
-        "Developed and managed technologies for the marketing company <span style='color: white;'>lookingup株式会社</span>.",
+  " <span style='color: white; display: block;'>lookingup株式会社</span>マーケティングリサーチ会社にてウェブアンケートの開発を行いました。"
+]
+    },
+     {
+      title: "AI・フルスタックエンジニア",
+      company_name: "株式会社カイ",
+      date: "2025 - 現在",
+      details: [
+        "<span style='color: white; display: block;'>株式会社カイにて</span>要件定義段階から技術選定、デスクトップアプリ・クラウドウェブアプリ・データベース等総括的な開発・実装をしました。",
       ],
     },
   ];
   
   const portfolio = [
     {
-      name: "React jobs website",
+      name: "求人ウェブサイト",
       description:
-        "A job search website built using React, with a focus on performance and accessibility.",
+        "Reactを使用して求人情報を提供するウェブサイトの開発。",
       image: reactJobs,
     },
     {
-      name: "PSM Calculator",
+      name: "PSM計算機機",
       description:
-        "An algorithm made to calculate the PSM value of the inserted data",
+        "PSM値を計算するアルゴリズムの実装。",
       image: psmAlgorithm,
     },
     {
-      name: "Video Website",
+      name: "ビデオウェブサイト",
       description:
-        "A video website based on popular, already existing websites",
+        "既存の有名なビデオウェブサイトを再現してみました。",
       image: videoWebsite,
     },
   ];
